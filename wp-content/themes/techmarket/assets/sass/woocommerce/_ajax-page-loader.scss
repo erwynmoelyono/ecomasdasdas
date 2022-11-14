@@ -1,0 +1,175 @@
+.phs-item,
+.phs-item-list{
+    background: #fff;
+    margin: 0 auto;
+    max-width: 400px;
+    min-height: 220px;
+}
+
+.bg-mask {
+    background: #fff;
+    position: absolute;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.phs-product-img-left {
+    top: 0;
+    left: 0;
+    height: 150px;
+    width: 30%;
+}
+
+.phs-product-img-right {
+    top: 0;
+    right: 0;
+    height: 150px;
+    width: 30%;
+}
+
+.phs-product-img-bottom {
+  top:150px;
+  height:20px;
+  width: 100%;
+}
+
+.phs-product-title-left {
+  top: 170px;
+  left: 0;
+  height:10px;
+  width: 20%;
+}
+
+.phs-product-title-right {
+  top: 170px;
+  right: 0;
+  height:10px;
+  width: 20%;
+}
+
+.phs-product-title-bottom {
+  top:180px;
+  height:10px;
+  width: 100%;
+}
+
+.phs-product-des-left {
+  top:190px;
+  left:0;
+  height:10px;
+  width:25%;
+}
+
+.phs-product-des-right {
+  top:190px;
+  right:0;
+  height:10px;
+  width:25%;
+}
+
+.phs-product-des-bottom {
+  top:200px;
+  height:10px;
+  width: 100%;
+}
+
+.phs-product-des-left-x1 {
+  top:210px;
+  left:0;
+  height:10px;
+  width:35%;
+}
+
+.phs-product-des-right-x1 {
+  top:210px;
+  right:0;
+  height:10px;
+  width:35%;
+}
+
+.phs-product-item-1{
+  top:0;
+  left:150px;
+  height:10px;
+  width:10px
+}
+
+.phs-product-item-line-1 {
+  top:10px;
+  left:150px;
+  height:10px;
+  width:250px;
+}
+
+.phs-product-item-2 {
+  top:20px;
+  left:150px;
+  height:10px;
+  width:10px;
+}
+
+.phs-product-item-3 {
+  top:20px;
+  height:10px;
+  width:40px;
+  right:0;
+}
+
+.phs-product-item-line-2 {
+  top:30px;
+  left:150px;
+  height:10px;
+  width:250px;
+}
+
+.phs-product-item-4 {
+  top:40px;
+  left:150px;
+  height:10px;
+  width:10px;
+}
+
+.phs-product-item-5 {
+  top:40px;
+  height:10px;
+  width:80px;
+  right:0;
+}
+
+.phs-product-item-line-3 {
+  top:50px;
+  left:150px;
+  height:100px;
+  width:250px;
+}
+
+.phs-item-list {
+  min-height: 150px;
+}
+
+.phs-item-list .phs-animated-bg {
+  height: 150px;
+}
+
+.phs-animated-bg {
+  animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-name: placeHolderShimmer;
+    animation-timing-function: linear;
+    background: #f6f7f8;
+    background: linear-gradient(to right, #eeeeee 8%, #dddddd 18%, #eeeeee 33%);
+    background-size: 800px 104px;
+    height: 220px;
+    position: relative;
+}
+
+@keyframes placeHolderShimmer{
+    0%{
+        background-position: -468px 0
+    }
+    100%{
+        background-position: 468px 0
+    }
+}

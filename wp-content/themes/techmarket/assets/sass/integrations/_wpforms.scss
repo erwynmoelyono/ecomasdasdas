@@ -1,0 +1,247 @@
+/**
+ * Contact Form
+ */
+ /* Contact Form CSS style */
+div.wpforms-container-full.contact-form .wpforms-form .wpforms-field-label,
+.wpforms-container.contact-form .wpforms-field-label {
+    color: #626060;
+    font-weight: 400;
+    letter-spacing: -.01em;
+    line-height: 1.5em;
+    margin-bottom: .5em;
+}
+
+div.wpforms-container-full.contact-form .wpforms-form input[type=email],
+div.wpforms-container-full.contact-form .wpforms-form input[type=password],
+div.wpforms-container-full.contact-form .wpforms-form input[type=search],
+div.wpforms-container-full.contact-form .wpforms-form input[type=text],
+div.wpforms-container-full.contact-form .wpforms-form input[type=url],
+div.wpforms-container-full.contact-form .wpforms-form textarea,
+.wpforms-container.contact-form input[type=email],
+.wpforms-container.contact-form input[type=password],
+.wpforms-container.contact-form input[type=search],
+.wpforms-container.contact-form input[type=text],
+.wpforms-container.contact-form input[type=url],
+.wpforms-container.contact-form textarea {
+    padding: 9px;
+    background-color: #fff;
+    color: #444;
+    outline: 0;
+    border: 0;
+    -webkit-appearance: none;
+    border-radius: 3px;
+    box-sizing: border-box;
+    font-weight: 400;
+    font-size: 1em;
+    border: 1px solid #ebebeb;
+    line-height: 1.615;
+}
+
+div.wpforms-container-full.contact-form .wpforms-form input[type=email],
+div.wpforms-container-full.contact-form .wpforms-form input[type=password],
+div.wpforms-container-full.contact-form .wpforms-form input[type=search],
+div.wpforms-container-full.contact-form .wpforms-form input[type=text],
+div.wpforms-container-full.contact-form .wpforms-form input[type=url],
+.wpforms-container.contact-form input[type=email],
+.wpforms-container.contact-form input[type=password],
+.wpforms-container.contact-form input[type=search],
+.wpforms-container.contact-form input[type=text],
+.wpforms-container.contact-form input[type=url] {
+    height: auto;
+
+}
+
+div.wpforms-container-full.contact-form .wpforms-form .wpforms-field,
+.wpforms-container.contact-form .wpforms-field {
+    padding: 0 0 1.438em;
+}
+
+div.wpforms-container-full.contact-form .wpforms-form .wpforms-one-half, 
+div.wpforms-container-full.contact-form .wpforms-form .wpforms-three-sixths, 
+div.wpforms-container-full.contact-form .wpforms-form .wpforms-two-fourths {
+    @media (max-width: 700px) {
+        width: 100%;
+
+        & + .wpforms-one-half {
+            margin-left: 0;
+            margin-top: 20px;
+        }
+    }
+}
+
+div.wpforms-container-full.contact-form .wpforms-form input[type=email]:focus,
+div.wpforms-container-full.contact-form .wpforms-form input[type=password]:focus,
+div.wpforms-container-full.contact-form .wpforms-form input[type=search]:focus,
+div.wpforms-container-full.contact-form .wpforms-form input[type=text]:focus,
+div.wpforms-container-full.contact-form .wpforms-form input[type=url]:focus,
+div.wpforms-container-full.contact-form .wpforms-form textarea:focus,
+.wpforms-container.contact-form input[type=email]:focus,
+.wpforms-container.contact-form input[type=password]:focus,
+.wpforms-container.contact-form input[type=search]:focus,
+.wpforms-container.contact-form input[type=text]:focus,
+.wpforms-container.contact-form input[type=url]:focus,
+.wpforms-container.contact-form textarea:focus {
+    color: #464a4c;
+    background-color: #fff;
+    border-color: #5cb3fd;
+    outline: 0;
+}
+
+div.wpforms-container-full.contact-form .wpforms-form .wpforms-submit-container,
+.wpforms-container.contact-form .wpforms-submit-container {
+    padding: 0;
+
+}
+
+div.wpforms-container-full.contact-form .wpforms-form input[type=submit],
+div.wpforms-container-full.contact-form .wpforms-form button[type=submit],
+div.wpforms-container-full.contact-form .wpforms-form .wpforms-page-button,
+.wpforms-container.contact-form input[type=submit],
+.wpforms-container.contact-form button[type=submit],
+.wpforms-container.contact-form .wpforms-page-button {
+    border: 0;
+    background: 0 0;
+    color: #fff;
+    cursor: pointer;
+    padding: .6180469716em 1.41575em;
+    text-decoration: none;
+    font-weight: 400;
+    text-shadow: none;
+    display: inline-block;
+    outline: 0;
+    -webkit-appearance: none;
+    -webkit-font-smoothing: antialiased;
+    border-radius: 3px;
+    font-size: 15px;
+}
+
+div.wpforms-container-full.contact-form .wpforms-form input[type=submit]:hover,
+div.wpforms-container-full.contact-form .wpforms-form button[type=submit]:hover,
+div.wpforms-container-full.contact-form .wpforms-form .wpforms-page-button:hover,
+.wpforms-container.contact-form input[type=submit]:hover,
+.wpforms-container.contact-form button[type=submit]:hover,
+.wpforms-container.contact-form .wpforms-page-button:hover {
+    color: #fff;
+    background-color: #000;
+    border-color: #000;
+    border-width: 0;
+}
+
+/**
+ * Newsletter
+ */
+ /* Newsletter CSS Style */
+/* Add a class ".newsletter-form" in "Form CSS Class" field under settings tab */
+
+div.wpforms-container-full.newsletter-form .wpforms-form .wpforms-field-label,
+.wpforms-container.newsletter-form .wpforms-field-label {
+    color: #626060;
+    font-weight: 400;
+    letter-spacing: -.01em;
+    line-height: 1.5em;
+    margin-bottom: .5em;
+}
+
+div.wpforms-container-full.newsletter-form .wpforms-form,
+.wpforms-container.newsletter-form .wpforms-form {
+    display: flex;
+
+    @media (max-width: 700px) {
+        flex-direction: column;
+    }
+}
+
+div.wpforms-container-full.newsletter-form .wpforms-form input[type=email],
+div.wpforms-container-full.newsletter-form .wpforms-form input[type=password],
+div.wpforms-container-full.newsletter-form .wpforms-form input[type=search],
+div.wpforms-container-full.newsletter-form .wpforms-form input[type=text],
+div.wpforms-container-full.newsletter-form .wpforms-form input[type=url],
+div.wpforms-container-full.newsletter-form .wpforms-form textarea,
+.wpforms-container.newsletter-form input[type=email],
+.wpforms-container.newsletter-form input[type=password],
+.wpforms-container.newsletter-form input[type=search],
+.wpforms-container.newsletter-form input[type=text],
+.wpforms-container.newsletter-form input[type=url],
+.wpforms-container.newsletter-form textarea {
+    background-color: #fff;
+    box-shadow: none;
+    padding: 1.067em;
+    color: #939393;
+    font-size: 1em;
+    border: 2px solid #e7e7e7;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    line-height: 1em;
+    height: auto;
+    width: 27.533em;
+
+    @media (min-width: 47.95em) and (max-width: 62em) {
+        width: 13em;
+    }
+
+    @media (max-width: 700px) {
+        margin-bottom: .8em;
+        width: 100%;
+    }
+}
+
+div.wpforms-container-full.newsletter-form .wpforms-form .wpforms-field,
+.wpforms-container.newsletter-form .wpforms-field {
+    padding: 0;
+}
+
+
+div.wpforms-container-full.newsletter-form .wpforms-form .wpforms-submit-container,
+.wpforms-container.newsletter-form .wpforms-submit-container {
+    padding: 0;
+
+}
+
+div.wpforms-container-full.newsletter-form .wpforms-form input[type=submit],
+div.wpforms-container-full.newsletter-form .wpforms-form button[type=submit],
+div.wpforms-container-full.newsletter-form .wpforms-form .wpforms-page-button,
+.wpforms-container.newsletter-form input[type=submit],
+.wpforms-container.newsletter-form button[type=submit],
+.wpforms-container.newsletter-form .wpforms-page-button {
+    margin-left: 0;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding-top: .8em;
+    padding-bottom: .8em;
+    padding-left: .4em;
+    padding-right: .4em;
+    width: 100%;
+
+    @media (min-width: 700px) {
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px;
+        border-bottom-left-radius: 0;
+        border-top-left-radius: 0;
+        margin-left: -.333em;
+        padding-top: 1em;
+        padding-bottom: 1em;
+        padding-right: 41px;
+        padding-left: 2.733em;
+        width: auto;
+    }    
+}
+
+div.wpforms-container-full.newsletter-form .wpforms-form input[type=submit]:hover,
+div.wpforms-container-full.newsletter-form .wpforms-form button[type=submit]:hover,
+div.wpforms-container-full.newsletter-form .wpforms-form .wpforms-page-button:hover,
+.wpforms-container.newsletter-form input[type=submit]:hover,
+.wpforms-container.newsletter-form button[type=submit]:hover,
+.wpforms-container.newsletter-form .wpforms-page-button:hover {
+    color: #fff;
+    box-shadow: none;
+    border: none;
+}
+
+.wpforms-container.newsletter-form .wpforms-submit-spinner,
+div.wpforms-container-full.newsletter-form .wpforms-form .wpforms-submit-spinner {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}

@@ -1,0 +1,184 @@
+.single-product .product-actions form.cart.composite_form {
+    align-items: flex-start;
+    margin: 0 0 20px 0;
+    flex-direction: column;
+    border: 2px solid #f1f1f1;
+    border-radius: 5px;
+    padding: 30px;
+
+    & + .add-to-compare-link {
+        width: 100%;
+    }
+
+    .component {
+        width: 100%;
+
+        .component_inner {
+            padding-bottom: 0;
+        }
+    }
+
+    .component_message {
+        margin-bottom: 20px !important;
+    }
+
+    .component_pagination {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .element_link,
+        .element_index {
+            font-size: 15px;
+            font-weight: 400;
+        }
+
+        .woocommerce-pagination {
+            flex-grow: 1;
+            text-align: right;
+        }
+    }
+
+    .component_title,
+    .summary_title {
+        padding-bottom: 13px;
+        border-bottom: 1px solid #ebebeb;
+        margin-bottom: 20px;
+        display: block;
+        font-size: 18px;
+        font-weight: 400;
+    }
+
+    .composite_wrap {
+        margin-bottom: 30px;
+    }
+
+    .composite_navigation {
+        &.bottom {
+            .composite_navigation_inner {
+                padding-bottom: 0;
+            }
+        }
+
+        .page_button {
+            font-size: 15px;
+            font-weight: 400;
+            padding: 6px 20px;
+            border-radius: 5px;
+            background-color: #f1f1f1;
+            margin-left: 0;
+            margin-right: 0;
+            max-width: 100%;
+
+            &:hover {
+                background-color: #1f1f1f;
+                color: #fff;
+            }
+        }
+
+        .prev::before,
+        .next::after {
+            display: none;
+        }
+    }
+
+    .composite_button {
+        display: flex;
+        align-items: flex-end;
+
+        &::before,
+        &::after {
+            display: none;
+        }
+    }
+
+    .component_option_thumbnail {
+        .thumbnail_description {
+            padding: 0 4px;
+
+            .title {
+                font-size: 14px;
+                font-weight: 400;
+                line-height: 1.2;
+                margin-bottom: 14px;
+            }
+        }
+
+        .image {
+            padding: 8px;
+        }
+    }
+
+    .composite_data {
+        width: 100%;
+    }
+
+    .composited_product_title_wrapper {
+        position: relative;
+
+        .clear_component_options_wrapper {
+            position: absolute;
+            top: 10px;
+            right: 0;
+            font-size: 12px;
+            margin-bottom: 0;
+        }
+    }
+
+    .component_section_title {
+        label {
+            font-weight: 500;
+            margin-bottom: 10px;
+            border-bottom: 1px solid #ebebeb;
+            padding-bottom: 2px;
+            display: inline-block;
+        }
+    }
+
+    .component_option_radio_button_container .radio_button_description .title {
+        font-size: 15px;
+        font-weight: 400;
+    }
+
+    .composited_product_title {
+        font-size: 18px;
+        line-height: 1;
+        margin-right: 0;
+        margin-bottom: 26px;
+    }
+}
+
+.single-product div.product {
+    .component_selections {
+        .component_summary {
+            .component_data {
+                padding: 0;
+                font-size: 15px;
+
+                ul {
+                    margin-left: 0;
+                    list-style: none;
+                }
+
+                p.stock {
+                    margin-right: 0;
+                }
+            }
+        }
+    }
+}
+
+.left-sidebar.single-product.normal .product-actions form.cart.composite_form .single_add_to_cart_button,
+.right-sidebar.single-product.normal .product-actions form.cart.composite_form .single_add_to_cart_button {
+    margin-left: 50px;
+    @include media-breakpoint-down(sm) {
+        margin-left: 30px;
+    }
+}
+
+@include media-breakpoint-down(sm) {
+    .single-product .product-actions form.cart.composite_form .single_add_to_cart_button {
+        padding: 14px 30px;
+        margin-left: 30px;
+    }
+}

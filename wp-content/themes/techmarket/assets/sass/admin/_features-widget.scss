@@ -1,0 +1,28 @@
+.widget-features-block-container .add-new-block{
+	background: #ccc none repeat scroll 0 0;font-weight: bold;margin: 20px 0px 9px;padding: 6px;text-align: center;display:block!important;cursor:pointer;
+}
+.widget-features-block-container .delete-block{
+	text-decoration: underline;color:red;
+}
+.widget-features-block-container{
+	padding:10px 0 0;
+}
+.widget-features-block-container .features-input-block{ padding:0; border:1px solid #e5e5e5; margin:10px 0 0; clear:both;}
+.widget-features-block-container .features-input-block:first-child{
+	margin:0;
+}
+.widget-features-block-container .entry-title{
+	display:block; font-size:14px; line-height:18px; font-weight:600; background:#f1f1f1; padding:7px 5px; position:relative; margin:0;
+}
+.widget-features-block-container .entry-title:after{
+	content: '\f140'; font: 400 20px/1 dashicons; position:absolute; right:10px; top:6px; color:#a0a5aa;
+}
+.widget-features-block-container .entry-title.active:after{
+	content: '\f142';
+}
+.widget-features-block-container .entry-desc{
+	display:none; padding:0 10px 10px; border-top:1px solid #e5e5e5;
+}
+.widget-features-block-container .message{
+	padding:6px;display:none;color:red;font-weight:bold;
+}

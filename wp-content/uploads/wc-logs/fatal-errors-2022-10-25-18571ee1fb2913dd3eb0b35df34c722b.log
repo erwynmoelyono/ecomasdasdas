@@ -1,0 +1,60 @@
+2022-10-25T07:03:52+00:00 CRITICAL Uncaught TypeError: array_filter(): Argument #1 ($array) must be of type array, null given in C:\laragon\www\ecom\wp-content\plugins\woocommerce-point-of-sale\includes\api\class-wc-pos-api-orders.php:127
+Stack trace:
+#0 C:\laragon\www\ecom\wp-content\plugins\woocommerce-point-of-sale\includes\api\class-wc-pos-api-orders.php(127): array_filter(NULL, Object(Closure))
+#1 C:\laragon\www\ecom\wp-content\plugins\woocommerce-point-of-sale\includes\api\class-wc-pos-api-orders.php(228): WC_API_POS_Orders->prepare_object_for_database(Object(WP_REST_Request), false)
+#2 C:\laragon\www\ecom\wp-content\plugins\woocommerce\includes\rest-api\Controllers\Version3\class-wc-rest-crud-controller.php(238): WC_API_POS_Orders->save_object(Object(WP_REST_Request), false)
+#3 C:\laragon\www\ecom\wp-includes\rest-api\class-wp-rest-server.php(1143): WC_REST_CRUD_Controller->update_item(Object(WP_REST_Request))
+#4 C:\laragon\www\ecom\wp-includes\rest-api\class-wp-rest-server.php(990): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/wc-pos/orders/...', Array, NULL)
+#5 C:\laragon\www\ecom\wp-includes\rest-api\class-wp-rest-server.php(414): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#6 C:\laragon\www\ecom\wp-includes\rest-api.php(394): WP_REST_Server->serve_request('/wc-pos/orders/...')
+#7 C:\laragon\www\ecom\wp-includes\class-wp-hook.php(307): rest_api_loaded(Object(WP))
+#8 C:\laragon\www\ecom\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#9 C:\laragon\www\ecom\wp-includes\plugin.php(524): WP_Hook->do_action(Array)
+#10 C:\laragon\www\ecom\wp-includes\class-wp.php(398): do_action_ref_array('parse_request', Array)
+#11 C:\laragon\www\ecom\wp-includes\class-wp.php(770): WP->parse_request('')
+#12 C:\laragon\www\ecom\wp-includes\functions.php(1330): WP->main('')
+#13 C:\laragon\www\ecom\wp-blog-header.php(16): wp()
+#14 C:\laragon\www\ecom\index.php(17): require('C:\\laragon\\www\\...')
+#15 {main}
+  thrown in C:\laragon\www\ecom\wp-content\plugins\woocommerce-point-of-sale\includes\api\class-wc-pos-api-orders.php on line 127
+
+2022-10-25T07:04:08+00:00 CRITICAL Uncaught TypeError: array_filter(): Argument #1 ($array) must be of type array, null given in C:\laragon\www\ecom\wp-content\plugins\woocommerce-point-of-sale\includes\api\class-wc-pos-api-orders.php:127
+Stack trace:
+#0 C:\laragon\www\ecom\wp-content\plugins\woocommerce-point-of-sale\includes\api\class-wc-pos-api-orders.php(127): array_filter(NULL, Object(Closure))
+#1 C:\laragon\www\ecom\wp-content\plugins\woocommerce-point-of-sale\includes\api\class-wc-pos-api-orders.php(228): WC_API_POS_Orders->prepare_object_for_database(Object(WP_REST_Request), false)
+#2 C:\laragon\www\ecom\wp-content\plugins\woocommerce\includes\rest-api\Controllers\Version3\class-wc-rest-crud-controller.php(238): WC_API_POS_Orders->save_object(Object(WP_REST_Request), false)
+#3 C:\laragon\www\ecom\wp-includes\rest-api\class-wp-rest-server.php(1143): WC_REST_CRUD_Controller->update_item(Object(WP_REST_Request))
+#4 C:\laragon\www\ecom\wp-includes\rest-api\class-wp-rest-server.php(990): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/wc-pos/orders/...', Array, NULL)
+#5 C:\laragon\www\ecom\wp-includes\rest-api\class-wp-rest-server.php(414): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#6 C:\laragon\www\ecom\wp-includes\rest-api.php(394): WP_REST_Server->serve_request('/wc-pos/orders/...')
+#7 C:\laragon\www\ecom\wp-includes\class-wp-hook.php(307): rest_api_loaded(Object(WP))
+#8 C:\laragon\www\ecom\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#9 C:\laragon\www\ecom\wp-includes\plugin.php(524): WP_Hook->do_action(Array)
+#10 C:\laragon\www\ecom\wp-includes\class-wp.php(398): do_action_ref_array('parse_request', Array)
+#11 C:\laragon\www\ecom\wp-includes\class-wp.php(770): WP->parse_request('')
+#12 C:\laragon\www\ecom\wp-includes\functions.php(1330): WP->main('')
+#13 C:\laragon\www\ecom\wp-blog-header.php(16): wp()
+#14 C:\laragon\www\ecom\index.php(17): require('C:\\laragon\\www\\...')
+#15 {main}
+  thrown in C:\laragon\www\ecom\wp-content\plugins\woocommerce-point-of-sale\includes\api\class-wc-pos-api-orders.php on line 127
+
+2022-10-25T07:15:27+00:00 CRITICAL Uncaught TypeError: array_filter(): Argument #1 ($array) must be of type array, null given in C:\laragon\www\ecom\wp-content\plugins\woocommerce-point-of-sale\includes\api\class-wc-pos-api-orders.php:127
+Stack trace:
+#0 C:\laragon\www\ecom\wp-content\plugins\woocommerce-point-of-sale\includes\api\class-wc-pos-api-orders.php(127): array_filter(NULL, Object(Closure))
+#1 C:\laragon\www\ecom\wp-content\plugins\woocommerce-point-of-sale\includes\api\class-wc-pos-api-orders.php(228): WC_API_POS_Orders->prepare_object_for_database(Object(WP_REST_Request), false)
+#2 C:\laragon\www\ecom\wp-content\plugins\woocommerce\includes\rest-api\Controllers\Version3\class-wc-rest-crud-controller.php(238): WC_API_POS_Orders->save_object(Object(WP_REST_Request), false)
+#3 C:\laragon\www\ecom\wp-includes\rest-api\class-wp-rest-server.php(1143): WC_REST_CRUD_Controller->update_item(Object(WP_REST_Request))
+#4 C:\laragon\www\ecom\wp-includes\rest-api\class-wp-rest-server.php(990): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/wc-pos/orders/...', Array, NULL)
+#5 C:\laragon\www\ecom\wp-includes\rest-api\class-wp-rest-server.php(414): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#6 C:\laragon\www\ecom\wp-includes\rest-api.php(394): WP_REST_Server->serve_request('/wc-pos/orders/...')
+#7 C:\laragon\www\ecom\wp-includes\class-wp-hook.php(307): rest_api_loaded(Object(WP))
+#8 C:\laragon\www\ecom\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#9 C:\laragon\www\ecom\wp-includes\plugin.php(524): WP_Hook->do_action(Array)
+#10 C:\laragon\www\ecom\wp-includes\class-wp.php(398): do_action_ref_array('parse_request', Array)
+#11 C:\laragon\www\ecom\wp-includes\class-wp.php(770): WP->parse_request('')
+#12 C:\laragon\www\ecom\wp-includes\functions.php(1330): WP->main('')
+#13 C:\laragon\www\ecom\wp-blog-header.php(16): wp()
+#14 C:\laragon\www\ecom\index.php(17): require('C:\\laragon\\www\\...')
+#15 {main}
+  thrown in C:\laragon\www\ecom\wp-content\plugins\woocommerce-point-of-sale\includes\api\class-wc-pos-api-orders.php on line 127
+

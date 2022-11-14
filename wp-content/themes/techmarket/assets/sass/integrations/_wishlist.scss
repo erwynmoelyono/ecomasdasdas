@@ -1,0 +1,55 @@
+.yith-wcwl-add-to-wishlist {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+
+    .add_to_wishlist,
+    .yith-wcwl-wishlistaddedbrowse a,
+    .yith-wcwl-wishlistexistsbrowse a {
+    	text-indent: -99999px;
+    	display: block;
+
+    	&::before {
+    		font-family: 'techmarket-icons';
+    		position: absolute;
+    		top: 8px;
+    		right: 14px;
+    		text-indent: 0;
+    		color: #444;
+    		font-size: 1.429em;
+
+            @media (max-width: 1169px) {
+                left: 14px;
+                right: auto;
+            }
+    	}
+    }
+
+    .add_to_wishlist {
+        &::before {
+            content: "\6b";
+        }
+    }
+
+    .yith-wcwl-wishlistaddedbrowse a,
+    .yith-wcwl-wishlistexistsbrowse a {
+        &::before {
+            color: #e74a6f;
+            content: "\f004";
+            font-family: FontAwesome;
+        }
+    }
+
+    img {
+        display: none !important;
+    }
+}
+
+.yith-wcwl-add-to-wishlist,
+.yith-wcwl-wishlistaddedbrowse .feedback,
+.yith-wcwl-wishlistexistsbrowse .feedback {
+    display: none;
+}
+#yith-wcwl-popup-message { display: none !important; }

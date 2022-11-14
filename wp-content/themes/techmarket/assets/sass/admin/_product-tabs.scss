@@ -1,0 +1,44 @@
+#woocommerce-coupon-data ul.wc-tabs li.accessories_options a::before, 
+#woocommerce-product-data ul.wc-tabs li.accessories_options a::before, 
+.woocommerce ul.wc-tabs li.accessories_options a::before {
+	font-family: 'fontawesome';
+	content: '\f02c';
+}
+
+#woocommerce-coupon-data ul.wc-tabs li.specification_options a::before, 
+#woocommerce-product-data ul.wc-tabs li.specification_options a::before, 
+.woocommerce ul.wc-tabs li.specification_options a::before {
+	font-family: 'fontawesome';
+	content: '\f1de';
+}
+
+#woocommerce-product-data .specifications_options_group {
+	
+	div.form-field {
+		padding: 5px 20px 5px 162px!important;
+		margin: 9px 0;
+
+		label {
+			float: left;
+			width: 150px;
+			padding: 0;
+			margin: 0 0 0 -150px;
+		}
+	}
+
+	textarea {
+		float: none;
+		height: 175px;
+		border-color: #ddd;
+		border: 0;
+	}
+}
+
+#woocommerce-product-data .woocommerce_options_panel ._specifications_attributes_style_field .wc-radios li {
+	display: inline-block;
+	margin-right: 10px;
+}
+
+._specifications_attributes_columns_field.hide {
+	display: none;
+}

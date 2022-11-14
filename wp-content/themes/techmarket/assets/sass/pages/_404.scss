@@ -1,0 +1,132 @@
+/**
+ * 404 Styles
+ */
+.error404 {
+
+	section > h2,
+	.fourohfour-categories > h2, {
+		border-bottom: 1px solid #ebebeb;
+		font-size: 1.500em;
+	    padding-bottom: 0.542em;    
+	}
+
+	.site-content .widget_product_search {
+		padding: ms(3);
+		background-color: rgba(#000,.025);
+
+		form {
+			margin: 0;
+		}
+	}
+
+	&.right-sidebar .content-area,
+	&.left-sidebar .content-area {
+		width: 100%;
+	}
+
+	.fourohfour-columns-2 {
+		@include clearfix;
+		padding: ms(5) 0;
+		border: 1px solid $color_border;
+		border-width: 1px 0;
+		margin-bottom: ms(5);
+		display: flex;
+
+		@media (max-width: 1024px) {
+			display: block;
+		}
+
+		ul.products,
+		ul.products li.product,
+		.widget {
+			margin-bottom: 0;
+		}
+
+		.col-1 {
+			@include span( 6 of 12 );
+
+			ul.products {
+				li.product {
+					@include span( 3 of 6 );
+				}
+			}
+		}
+
+		.col-2 {
+			@include span( last 6 of 12 );
+			padding: ms(3);
+			background-color: rgba(#000,.025);
+		}
+		
+		.fourohfour-products {
+			@include make-col(9);
+			padding-left: 0.938em;
+    		padding-right: 0.938em;
+
+    		@media (max-width: 1024px) {
+				@include make-col(12);
+			}
+		}
+
+		.fourohfour-categories {
+			@include make-col(3);
+			padding-left: 0.938em;
+    		padding-right: 0.938em;
+    		@media (max-width: 1024px) {
+				@include make-col(12);
+			}
+		}
+
+		.widget_product_categories {
+	
+			.product-categories, .widget-title + ul {
+				border: 2px solid #ececec;
+				border-radius: 6px;
+			}
+
+			ul li {
+				border-top: 1px solid #ddd;
+
+				a {
+					font-size: 0.938em;
+				}
+
+				&:first-child {
+					border: none;
+				}
+
+				.child-indicator {
+					i {
+						font-size: 0.857em;
+						color: #aeaeae;
+						width: 0.571em;
+						margin-right: 0.511em;
+					}
+
+					&.open i{
+						transform: rotate(180deg);
+					}
+				}
+
+				.children {
+
+					.child-indicator {
+						padding-left: 2.214em;
+					}
+
+					.no-child {
+						padding-left: 1.533em;
+					}
+				}
+
+				.child-indicator {
+					padding-left: 1.214em;
+				}
+
+				.no-child {
+					padding-left: 2.143em;
+				}
+			}
+		}
+	}
+}

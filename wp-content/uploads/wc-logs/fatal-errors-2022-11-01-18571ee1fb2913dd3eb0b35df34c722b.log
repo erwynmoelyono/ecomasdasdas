@@ -1,0 +1,135 @@
+2022-11-01T06:42:59+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "SC_activate" not found or invalid function name in C:\laragon\www\ecom\wp-includes\class-wp-hook.php:307
+Stack trace:
+#0 C:\laragon\www\ecom\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#1 C:\laragon\www\ecom\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#2 C:\laragon\www\ecom\wp-admin\includes\plugin.php(691): do_action('activate_wp-cab...', false)
+#3 C:\laragon\www\ecom\wp-admin\plugins.php(58): activate_plugin('wp-cabang/wp-ca...', 'http://localhos...', false)
+#4 {main}
+  thrown in C:\laragon\www\ecom\wp-includes\class-wp-hook.php on line 307
+
+2022-11-01T06:43:02+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "SC_activate" not found or invalid function name in C:\laragon\www\ecom\wp-includes\class-wp-hook.php:307
+Stack trace:
+#0 C:\laragon\www\ecom\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#1 C:\laragon\www\ecom\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#2 C:\laragon\www\ecom\wp-admin\plugins.php(194): do_action('activate_wp-cab...')
+#3 {main}
+  thrown in C:\laragon\www\ecom\wp-includes\class-wp-hook.php on line 307
+
+2022-11-01T06:43:02+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "SC_activate" not found or invalid function name in C:\laragon\www\ecom\wp-includes\class-wp-hook.php:307
+Stack trace:
+#0 C:\laragon\www\ecom\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#1 C:\laragon\www\ecom\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#2 C:\laragon\www\ecom\wp-admin\plugins.php(194): do_action('activate_wp-cab...')
+#3 {main}
+  thrown in C:\laragon\www\ecom\wp-includes\class-wp-hook.php on line 307
+
+2022-11-01T06:43:06+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "SC_activate" not found or invalid function name in C:\laragon\www\ecom\wp-includes\class-wp-hook.php:307
+Stack trace:
+#0 C:\laragon\www\ecom\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#1 C:\laragon\www\ecom\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#2 C:\laragon\www\ecom\wp-admin\includes\plugin.php(691): do_action('activate_wp-cab...', false)
+#3 C:\laragon\www\ecom\wp-admin\plugins.php(58): activate_plugin('wp-cabang/wp-ca...', 'http://localhos...', false)
+#4 {main}
+  thrown in C:\laragon\www\ecom\wp-includes\class-wp-hook.php on line 307
+
+2022-11-01T06:43:09+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "SC_activate" not found or invalid function name in C:\laragon\www\ecom\wp-includes\class-wp-hook.php:307
+Stack trace:
+#0 C:\laragon\www\ecom\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#1 C:\laragon\www\ecom\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#2 C:\laragon\www\ecom\wp-admin\plugins.php(194): do_action('activate_wp-cab...')
+#3 {main}
+  thrown in C:\laragon\www\ecom\wp-includes\class-wp-hook.php on line 307
+
+2022-11-01T06:43:09+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "SC_activate" not found or invalid function name in C:\laragon\www\ecom\wp-includes\class-wp-hook.php:307
+Stack trace:
+#0 C:\laragon\www\ecom\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#1 C:\laragon\www\ecom\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#2 C:\laragon\www\ecom\wp-admin\plugins.php(194): do_action('activate_wp-cab...')
+#3 {main}
+  thrown in C:\laragon\www\ecom\wp-includes\class-wp-hook.php on line 307
+
+2022-11-01T06:58:35+00:00 CRITICAL Uncaught Exception: Gagal Buat Tabel in C:\laragon\www\ecom\wp-content\plugins\wp-cabang\wp-cabang.php:41
+Stack trace:
+#0 C:\laragon\www\ecom\wp-includes\class-wp-hook.php(307): wpc_uninstall(false)
+#1 C:\laragon\www\ecom\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#2 C:\laragon\www\ecom\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#3 C:\laragon\www\ecom\wp-admin\includes\plugin.php(814): do_action('deactivate_wp-c...', false)
+#4 C:\laragon\www\ecom\wp-admin\plugins.php(209): deactivate_plugins('wp-cabang/wp-ca...', false, false)
+#5 {main}
+  thrown in C:\laragon\www\ecom\wp-content\plugins\wp-cabang\wp-cabang.php on line 41
+
+2022-11-01T06:58:47+00:00 CRITICAL Uncaught Exception: Gagal Buat Tabel in C:\laragon\www\ecom\wp-content\plugins\wp-cabang\wp-cabang.php:41
+Stack trace:
+#0 C:\laragon\www\ecom\wp-includes\class-wp-hook.php(307): wpc_uninstall(false)
+#1 C:\laragon\www\ecom\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#2 C:\laragon\www\ecom\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#3 C:\laragon\www\ecom\wp-admin\includes\plugin.php(814): do_action('deactivate_wp-c...', false)
+#4 C:\laragon\www\ecom\wp-admin\plugins.php(209): deactivate_plugins('wp-cabang/wp-ca...', false, false)
+#5 {main}
+  thrown in C:\laragon\www\ecom\wp-content\plugins\wp-cabang\wp-cabang.php on line 41
+
+2022-11-01T07:00:18+00:00 CRITICAL Uncaught Exception: Gagal Buat Tabel in C:\laragon\www\ecom\wp-content\plugins\wp-cabang\wp-cabang.php:41
+Stack trace:
+#0 C:\laragon\www\ecom\wp-includes\class-wp-hook.php(307): wpc_uninstall(false)
+#1 C:\laragon\www\ecom\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#2 C:\laragon\www\ecom\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#3 C:\laragon\www\ecom\wp-admin\includes\plugin.php(814): do_action('deactivate_wp-c...', false)
+#4 C:\laragon\www\ecom\wp-admin\plugins.php(209): deactivate_plugins('wp-cabang/wp-ca...', false, false)
+#5 {main}
+  thrown in C:\laragon\www\ecom\wp-content\plugins\wp-cabang\wp-cabang.php on line 41
+
+2022-11-01T07:00:29+00:00 CRITICAL Uncaught Exception: Gagal Buat Tabel in C:\laragon\www\ecom\wp-content\plugins\wp-cabang\wp-cabang.php:41
+Stack trace:
+#0 C:\laragon\www\ecom\wp-includes\class-wp-hook.php(307): wpc_uninstall(false)
+#1 C:\laragon\www\ecom\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#2 C:\laragon\www\ecom\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#3 C:\laragon\www\ecom\wp-admin\includes\plugin.php(814): do_action('deactivate_wp-c...', false)
+#4 C:\laragon\www\ecom\wp-admin\plugins.php(209): deactivate_plugins('wp-cabang/wp-ca...', false, false)
+#5 {main}
+  thrown in C:\laragon\www\ecom\wp-content\plugins\wp-cabang\wp-cabang.php on line 41
+
+2022-11-01T07:00:53+00:00 CRITICAL Uncaught Exception: Gagal Buat Tabel in C:\laragon\www\ecom\wp-content\plugins\wp-cabang\wp-cabang.php:41
+Stack trace:
+#0 C:\laragon\www\ecom\wp-includes\class-wp-hook.php(307): wpc_uninstall(false)
+#1 C:\laragon\www\ecom\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#2 C:\laragon\www\ecom\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#3 C:\laragon\www\ecom\wp-admin\includes\plugin.php(814): do_action('deactivate_wp-c...', false)
+#4 C:\laragon\www\ecom\wp-admin\plugins.php(209): deactivate_plugins('wp-cabang/wp-ca...', false, false)
+#5 {main}
+  thrown in C:\laragon\www\ecom\wp-content\plugins\wp-cabang\wp-cabang.php on line 41
+
+2022-11-01T07:01:40+00:00 CRITICAL Uncaught Exception: Gagal Buat Tabel in C:\laragon\www\ecom\wp-content\plugins\wp-cabang\wp-cabang.php:41
+Stack trace:
+#0 C:\laragon\www\ecom\wp-includes\class-wp-hook.php(307): wpc_uninstall(false)
+#1 C:\laragon\www\ecom\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#2 C:\laragon\www\ecom\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#3 C:\laragon\www\ecom\wp-admin\includes\plugin.php(814): do_action('deactivate_wp-c...', false)
+#4 C:\laragon\www\ecom\wp-admin\plugins.php(209): deactivate_plugins('wp-cabang/wp-ca...', false, false)
+#5 {main}
+  thrown in C:\laragon\www\ecom\wp-content\plugins\wp-cabang\wp-cabang.php on line 41
+
+2022-11-01T07:02:26+00:00 CRITICAL Uncaught Exception: Gagal Buat Tabel in C:\laragon\www\ecom\wp-content\plugins\wp-cabang\wp-cabang.php:41
+Stack trace:
+#0 C:\laragon\www\ecom\wp-includes\class-wp-hook.php(307): wpc_uninstall(false)
+#1 C:\laragon\www\ecom\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#2 C:\laragon\www\ecom\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#3 C:\laragon\www\ecom\wp-admin\includes\plugin.php(814): do_action('deactivate_wp-c...', false)
+#4 C:\laragon\www\ecom\wp-admin\plugins.php(209): deactivate_plugins('wp-cabang/wp-ca...', false, false)
+#5 {main}
+  thrown in C:\laragon\www\ecom\wp-content\plugins\wp-cabang\wp-cabang.php on line 41
+
+2022-11-01T07:04:06+00:00 CRITICAL Uncaught Exception: Gagal Buat Tabel in C:\laragon\www\ecom\wp-content\plugins\wp-cabang\wp-cabang.php:41
+Stack trace:
+#0 C:\laragon\www\ecom\wp-includes\class-wp-hook.php(307): wpc_uninstall('')
+#1 C:\laragon\www\ecom\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#2 C:\laragon\www\ecom\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#3 C:\laragon\www\ecom\wp-admin\includes\plugin.php(1265): do_action('uninstall_wp-ca...')
+#4 C:\laragon\www\ecom\wp-admin\includes\plugin.php(958): uninstall_plugin('wp-cabang/wp-ca...')
+#5 C:\laragon\www\ecom\wp-admin\includes\ajax-actions.php(4668): delete_plugins(Array)
+#6 C:\laragon\www\ecom\wp-includes\class-wp-hook.php(307): wp_ajax_delete_plugin('')
+#7 C:\laragon\www\ecom\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#8 C:\laragon\www\ecom\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#9 C:\laragon\www\ecom\wp-admin\admin-ajax.php(187): do_action('wp_ajax_delete-...')
+#10 {main}
+  thrown in C:\laragon\www\ecom\wp-content\plugins\wp-cabang\wp-cabang.php on line 41
+

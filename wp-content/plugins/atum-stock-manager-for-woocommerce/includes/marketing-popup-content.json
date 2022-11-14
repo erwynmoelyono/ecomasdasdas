@@ -1,0 +1,56 @@
+{
+	"background": {
+		"bg_image"   : "url(https://stockmanagementlabs.com/wp-content/uploads/2022/02/waves-1.svg)",
+		"bg_position": "bottom",
+		"bg_size"    : "contain",
+		"bg_repeat"  : "no-repeat",
+		"bg_color"   : "white"
+	},
+	"dash_background": {
+		"bg_image"   : "url(https://stockmanagementlabs.com/wp-content/uploads/2022/02/waves-1.svg)",
+		"bg_position": "bottom",
+		"bg_size"    : "contain",
+		"bg_repeat"  : "no-repeat",
+		"bg_color"   : "white"
+	},
+	"images": {
+		"logo"     : "https://stockmanagementlabs.com/wp-content/uploads/2022/02/po-pro-logo.png",
+		"dash_logo": "https://stockmanagementlabs.com/wp-content/uploads/2022/02/po-pro-logo.png",
+		"logo_css" : "width:238px;margin-bottom:15px;",
+		"top_left" : "https://stockmanagementlabs.com/wp-content/uploads/2022/02/label-new.svg"
+	},
+	"title": {
+		"text"      : "",
+		"text_color": "black",
+		"text_size" : "",
+		"text_align": "center"
+	},
+	"version": {
+		"text"      : "",
+		"text_color": "#FFF",
+		"background": "#ff4848"
+	},
+	"description": {
+		"text"           : "The day is finally here! Purchase Order PRO is officially ready for launch!",
+		"text_color"     : "#6c757d",
+		"text_size"      : "14px",
+		"text_align"     : "center",
+		"dash_text_align": "left",
+		"padding"        : "0 28px 25px"
+	},
+	"buttons": [
+		{
+			"text" : "Purchase Now!",
+			"url"  : "https://stockmanagementlabs.com/addons/atum-purchase-orders-pro/",
+			"class": "btn btn-sm btn-primary",
+			"css"  : "width: 165px; background-image: linear-gradient(to right, #eb33c3 0%, #6293e9 99%);border-color:#eb33c3;"
+		},
+		{
+			"text" : "Try the demo",
+			"url"  : "https://demo.purchase-orders.stockmanagementlabs.com/",
+			"class": "btn btn-sm btn-outline-success purple",
+			"css"  : "width:165px"
+		}
+	],
+	"transient_key": "atum_po_pro_launch"
+}

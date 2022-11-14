@@ -1,0 +1,11 @@
+openapi: 3.0.1
+info:
+  title: woocommerce-wp-plugin-va
+  description: woocommerce-wp-plugin-va
+  x-cortex-git:
+    github:
+      repository: xendit/woocommerce-wp-plugin-va
+  x-cortex-tag: woocommerce-wp-plugin-va
+  x-cortex-owners:
+  - type: GROUP
+    name: xendit/tpi-dev

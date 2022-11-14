@@ -1,0 +1,35 @@
+<wpml-config>
+	<admin-texts>
+		<key name="techmarket_options">
+			<key name="header_departments_menu_title" />
+			<key name="header_departments_menu_icon" />
+			<key name="header_search_placeholder_text" />
+			<key name="header_search_dropdown_text" />
+			<key name="header_search_button_text" />
+			<key name="header_action_btn_text" />
+			<key name="header_action_btn_link" />
+			<key name="header_action_btn_icon" />
+			<key name="compare_page_id" />
+			<key name="shop_jumbotron_id" />
+			<key name="shop_specs_tab_title" />
+			<key name="myaccount_before_login_text" />
+			<key name="myaccount_before_register_text" />
+			<key name="myaccount_register_benefits_title" />
+			<key name="myaccount_register_benefits" />
+			<key name="footer_newsletter_title" />
+			<key name="footer_newsletter_marketing_text" />
+			<key name="footer_newsletter_signup_form" />
+			<key name="footer_contact_info_title" />
+			<key name="footer_contact_info_icon" />
+			<key name="footer_contact_info_text" />
+			<key name="footer_address" />
+			<key name="footer_contact_map_link" />
+			<key name="footer_contact_map_icon" />
+			<key name="footer_contact_map_text" />
+			<key name="footer_payment_info_title" />
+			<key name="footer_payment_info_icon" />
+			<key name="footer_copyright" />
+			<key name="footer_credit" />
+		</key>
+	</admin-texts>
+</wpml-config>
