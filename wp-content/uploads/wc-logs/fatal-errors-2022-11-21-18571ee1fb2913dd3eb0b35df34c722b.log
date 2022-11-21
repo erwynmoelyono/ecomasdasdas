@@ -1,0 +1,6 @@
+2022-11-21T10:26:43+00:00 CRITICAL Cannot redeclare check_if_logged_in() (previously declared in C:\laragon\www\ecom\wp-content\themes\techmarket-child\functions.php:27) in C:\laragon\www\ecom\wp-content\themes\techmarket\functions.php on line 102
+
+2022-11-21T10:27:15+00:00 CRITICAL Cannot redeclare check_if_logged_in() (previously declared in C:\laragon\www\ecom\wp-content\themes\techmarket-child\functions.php:27) in C:\laragon\www\ecom\wp-content\themes\techmarket\functions.php on line 102
+
+2022-11-21T10:28:00+00:00 CRITICAL Cannot redeclare check_if_logged_in() (previously declared in C:\laragon\www\ecom\wp-content\themes\techmarket-child\functions.php:27) in C:\laragon\www\ecom\wp-content\themes\techmarket\functions.php on line 102
+
