@@ -4,3 +4,42 @@
 
 2022-11-21T10:28:00+00:00 CRITICAL Cannot redeclare check_if_logged_in() (previously declared in C:\laragon\www\ecom\wp-content\themes\techmarket-child\functions.php:27) in C:\laragon\www\ecom\wp-content\themes\techmarket\functions.php on line 102
 
+2022-11-21T17:01:54+00:00 CRITICAL Uncaught Error: Call to a member function get_month() on null in C:\laragon\www\ecom\wp-includes\media.php:4498
+Stack trace:
+#0 C:\laragon\www\ecom\wp-content\plugins\th-all-in-one-woo-cart\inc\taiowc.php(133): wp_enqueue_media()
+#1 C:\laragon\www\ecom\wp-includes\class-wp-hook.php(308): Taiowc->scripts('')
+#2 C:\laragon\www\ecom\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#3 C:\laragon\www\ecom\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 C:\laragon\www\ecom\wp-includes\script-loader.php(2180): do_action('wp_enqueue_scri...')
+#5 C:\laragon\www\ecom\wp-includes\class-wp-customize-manager.php(455): wp_enqueue_scripts()
+#6 C:\laragon\www\ecom\wp-includes\class-wp-customize-manager.php(552): WP_Customize_Manager->wp_die(0, 'Non-existent ch...')
+#7 C:\laragon\www\ecom\wp-includes\class-wp-hook.php(308): WP_Customize_Manager->setup_theme('')
+#8 C:\laragon\www\ecom\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#9 C:\laragon\www\ecom\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#10 C:\laragon\www\ecom\wp-settings.php(549): do_action('setup_theme')
+#11 C:\laragon\www\ecom\wp-config.php(99): require_once('C:\\laragon\\www\\...')
+#12 C:\laragon\www\ecom\wp-load.php(50): require_once('C:\\laragon\\www\\...')
+#13 C:\laragon\www\ecom\wp-blog-header.php(13): require_once('C:\\laragon\\www\\...')
+#14 C:\laragon\www\ecom\index.php(17): require('C:\\laragon\\www\\...')
+#15 {main}
+  thrown in C:\laragon\www\ecom\wp-includes\media.php on line 4498
+
+2022-11-21T17:12:12+00:00 CRITICAL Uncaught ValueError: Unknown format specifier "S" in C:\laragon\www\ecom\wp-content\plugins\yith-woocommerce-advanced-reviews-master\templates\admin\premium.php:235
+Stack trace:
+#0 C:\laragon\www\ecom\wp-content\plugins\yith-woocommerce-advanced-reviews-master\templates\admin\premium.php(235): sprintf('Appearance is i...', '<b>', '</b>')
+#1 C:\laragon\www\ecom\wp-content\plugins\yith-woocommerce-advanced-reviews-master\class.yith-woocommerce-advanced-reviews.php(674): include_once('C:\\laragon\\www\\...')
+#2 C:\laragon\www\ecom\wp-includes\class-wp-hook.php(308): YITH_WooCommerce_Advanced_Reviews->premium_tab('')
+#3 C:\laragon\www\ecom\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#4 C:\laragon\www\ecom\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#5 C:\laragon\www\ecom\wp-content\plugins\yith-woocommerce-wishlist\plugin-fw\templates\panel\custom-tab.php(37): do_action('yith_advanced_r...')
+#6 C:\laragon\www\ecom\wp-content\plugins\yith-woocommerce-wishlist\plugin-fw\includes\class-yit-plugin-panel.php(764): include('C:\\laragon\\www\\...')
+#7 C:\laragon\www\ecom\wp-content\plugins\yith-woocommerce-wishlist\plugin-fw\includes\class-yit-plugin-panel-woocommerce.php(290): YIT_Plugin_Panel->print_custom_tab(Array)
+#8 C:\laragon\www\ecom\wp-content\plugins\yith-woocommerce-wishlist\plugin-fw\templates\panel\woocommerce\woocommerce-panel.php(23): YIT_Plugin_Panel_WooCommerce->print_panel_content()
+#9 C:\laragon\www\ecom\wp-content\plugins\yith-woocommerce-wishlist\plugin-fw\includes\class-yit-plugin-panel-woocommerce.php(159): require('C:\\laragon\\www\\...')
+#10 C:\laragon\www\ecom\wp-includes\class-wp-hook.php(308): YIT_Plugin_Panel_WooCommerce->yit_panel('')
+#11 C:\laragon\www\ecom\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#12 C:\laragon\www\ecom\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#13 C:\laragon\www\ecom\wp-admin\admin.php(259): do_action('yith-plugins_pa...')
+#14 {main}
+  thrown in C:\laragon\www\ecom\wp-content\plugins\yith-woocommerce-advanced-reviews-master\templates\admin\premium.php on line 235
+
