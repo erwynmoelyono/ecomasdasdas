@@ -1,0 +1,1 @@
+ê|c<?php exit; ?>a:1:{s:7:"content";s:158:"{"mobile":null,"desktop":null,"test_url":"https:\/\/developers.google.com\/speed\/pagespeed\/insights\/?url=https%3A%2F%2Flocalhost%2Fecom","time":1669127155}";}
